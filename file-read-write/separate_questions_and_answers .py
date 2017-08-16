@@ -6,7 +6,7 @@
 # Filename: separate_questions_and_answers.py
 # Description : separate questions and matching answers from a file
 # Author:ZhMi
-# E-mail:zmmingtiandege1314@126.com
+# E-mail:
 # Create:2015-8-3
 
 ####################################### Part1 : Coding #################################################################
@@ -97,7 +97,7 @@ for i in xrange(len(AnswList)) :
 
 import MySQLdb
 
-conn = MySQLdb.connect(host='localhost',user='root',passwd='95120',charset='utf8',port=3306)
+conn = MySQLdb.connect(host='localhost',user='root',passwd='',charset='utf8',port=3306)
 cursor = conn.cursor()
 
 try :
