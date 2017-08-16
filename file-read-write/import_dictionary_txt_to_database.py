@@ -8,7 +8,7 @@
 #               ---chinese_word_table
 
 # Author:       ZhMi
-# E-mail:       zmmingtiandege1314@126.com
+# E-mail:      
 # Create:       2015-8-18
 
 ####################################### Part1 : Import part ############################################################
@@ -56,7 +56,7 @@ dictionist = map(None,wordlist,meaninglist)
 
 
 
-conn = MySQLdb.connect(host='localhost',user='root',passwd='95120',charset='utf8',port=3306)
+conn = MySQLdb.connect(host='localhost',user='root',passwd='',charset='utf8',port=3306)
 cursor = conn.cursor()
 
 try :
